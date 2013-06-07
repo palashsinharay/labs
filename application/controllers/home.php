@@ -22,6 +22,16 @@ class Home extends CI_Controller {
             //$this->example_spark->printHello();
             $this->load->view('index');
 	}
+        
+        public function product() {
+            $this->load->view('product');
+        }
+        public function team() {
+            $this->load->view('team');
+        }
+        public function contactUs() {
+            $this->load->view('contactus');
+        }
 }
 
 /* End of file welcome.php */
